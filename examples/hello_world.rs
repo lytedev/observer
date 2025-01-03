@@ -1,4 +1,4 @@
-use observer::prelude::*;
+use lyte_observer::prelude::*;
 
 fn main() -> Result<()> {
     observe_info()?;

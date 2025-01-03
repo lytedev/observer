@@ -1,4 +1,4 @@
-# observer
+# lyte-observer
 
 A thin wrapper around my most commonly-used crates for error handling and
 reporting, tracing, observability, logs, etc.
