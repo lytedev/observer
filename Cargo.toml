@@ -1,0 +1,18 @@
+[package]
+name = "observer"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+# color-eyre is my go-to for generic error handling in a nice way
+# it is a thin wrapper itself around the `anyhow` crate
+color-eyre = { version = "0.6.3", default-features = false }
+
+# tracing is my all-purpose log-with-metadata and annotate everything crate
+tracing = { version = "0.1.41", default-features = false, features = [
+  "attributes",
+  "log",
+] }
+
+# tracing-subscriber is for taking traces and spitting them to stdout nicely
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
