@@ -1,11 +1,2 @@
+# cargo build output
 /target
-/result
-/.direnv
-/.pre-commit-config.yaml
-
-
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target

@@ -1,7 +1,7 @@
 [package]
 name = "lyte-observer"
-version = "1.0.0"
-edition = "2021"
+version = "1.0.1"
+edition = "2024"
 
 description = "A thin wrapper around my most commonly-used crates for error handling and reporting, tracing, observability, logs, etc."
 license = "MIT"

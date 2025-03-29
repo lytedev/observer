@@ -8,7 +8,7 @@ pub mod prelude {
     pub use super::{observe, observe_info, trace_crate};
     pub use color_eyre::{Report, Result};
     pub use crates::*;
-    pub use tracing::{debug, error, event, info, instrument, trace, warn, Instrument, Level};
+    pub use tracing::{Instrument, Level, debug, error, event, info, instrument, trace, warn};
     pub type Error = Report;
 }
 
